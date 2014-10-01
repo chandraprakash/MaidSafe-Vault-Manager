@@ -221,6 +221,7 @@ int main(int argc, char** argv) {
     std::cout << "Successfully stopped vault_manager" << std::endl;
   } catch(const std::exception& e) {
     LOG(kError) << "Error: " << e.what();
+    std::cout << "Error: " << e.what() << std::endl;
     return -5; // Check ?
   }
 #endif
