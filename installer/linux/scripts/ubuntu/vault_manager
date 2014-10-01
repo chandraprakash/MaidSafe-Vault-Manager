@@ -17,7 +17,7 @@
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="MaidSafe Farmer Manager"
 NAME=vault_manager
-DAEMON=/opt/maidsafe/vault/$NAME
+DAEMON=/opt/maidsafe/$NAME
 DAEMON_ARGS=""
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
